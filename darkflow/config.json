@@ -1,0 +1,28 @@
+{
+    "_comment" : "Pub and Sub configuration for Image Collection Module",
+    "sub"             : {
+        "port" : "5555"
+    },
+    "database"        : {
+        "url"  : "C:/Users/Karma/Documents/workspace/cnaviz/imcol/data/ColData-test2.db"
+    },
+    "pub"             : {
+        "ip"   : "192.168.1.153",
+        "port" : "5555"
+    },
+    "img"             : {
+        "_comment"      : "Source can be either cam or file and interval in seconds ",
+        "source"        : "cam", 
+        "path"          : 0,
+        "height"        : 640,
+        "width"         : 480,
+        "videoSavePath" : "./",
+        "imageSavePath" : "./",
+        "videoInterval" : 15,
+        "imageInterval" : 1,
+        "fps"           : 30
+    },
+    "vehicle"        : {
+        "url"  : "tcp:192.168.1.171:5555"
+    }
+}
