@@ -12,4 +12,13 @@ RUN apt-get update
 
 WORKDIR /home
 
+RUN git clone https://github.com/mrstephenpace/my_projects.git
+    cp -r my_projects/darkflow .
+    rm -r my_projects
+    
+
+
+
+
+
 ADD darkflow/
