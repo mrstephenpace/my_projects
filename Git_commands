@@ -1,0 +1,23 @@
+These commands can only be run in the directory of project on the local machine. If not,
+git clone https://github.com/mrstephenpace/my_projects.git
+
+Status of project
+git status
+
+Remove files or folders from the project
+git rm -rf name_of_folder
+git rm name_of_file
+
+
+Add a file or folder to project
+git add name_of_file
+
+Add all files to project
+git add -f -A
+
+
+Commit the previously added files or folders to the project
+git commit -am "comments for commit"
+
+Push commits to the repository
+git push origin master
